@@ -1,37 +1,32 @@
-// let math = +prompt("Сколько будет 2 + 2");
-// let sun = confirm("Солнце встает на востоке?");
-// let math2 = prompt("Сколько будет 5 / 0?");
-// let sky = prompt("Какого цвета небо?");
-// let life = prompt("Какой правильный ответ на главный вопрос жизни, вселенной и всего такого.");
-// let result = 0;
+let math = +prompt("Сколько будет 2 + 2");
+let sun = confirm("Солнце встает на востоке?");
+let math2 = prompt("Сколько будет 5 / 0?");
+let sky = prompt("Какого цвета небо?");
+let life = prompt("Какой правильный ответ на главный вопрос жизни, вселенной и всего такого.");
+let result = 0;
 
-// if (math == 4) {
-//     result += 10;
-//     console.log(result);
-// }
-// if (sun == true) {
-//     result += 10;
-//     console.log(result);
-// }
-// if (math2 == 0 || math2 == "infinity" || math2 == "деление на ноль невозможно") {
-//     result += 10;
-//     console.log(result);
-// }
-// if (sky == "голубой" || sky == "синий") {
-//     result += 10;
-//     console.log(result);
-// }
-// if (life == 42) {
-//     result += 10;
-//     console.log(result);
-// }
-// if (result == 0) {
-//     alert("Ваш результат - 0. Попробуйте еще раз!");
-// }
-// if (result >= 10) {
-//     alert(`Ваш результат - ${result}`);
-// }
-// console.log(result);
+if (math == 4) {
+    result += 10;
+}
+if (sun == true) {
+    result += 10;
+}
+if (math2 == 0 || math2 == "infinity" || math2 == "деление на ноль невозможно") {
+    result += 10;
+}
+if (sky == "голубой" || sky == "синий") {
+    result += 10;
+}
+if (life == 42) {
+    result += 10;
+}
+if (result == 0) {
+    alert("Ваш результат - 0. Попробуйте еще раз!");
+}
+if (result >= 10) {
+    alert(`Ваш результат - ${result}`);
+}
+console.log(result);
 
 // доп дз:
 // ввод года рождения, вывести через алерт какой это год(козла, дркона и тд..)
